@@ -1,0 +1,15 @@
+{
+    "network_prototxt": "/workspace/data/qyc/qyc_work/MXNet2Caffe/model_caffe/model-r18-slim.prototxt",
+    "network_caffemodel": "/workspace/data/qyc/qyc_work/MXNet2Caffe/model_caffe/model-r18-slim-233.caffemodel",
+    "data_mean": "/workspace/data/face_models/face-recog-caffemodel-122/center_face_mean_127.5_1x3.binaryproto",
+    "feature_layer": "fc1",
+    "batch_size": 10,
+    "input_scale": 0.0078125,
+    "raw_scale": 255.0,
+    "channel_swap": "2, 1, 0",
+    "mirror_trick": 1,
+    "image_as_grey": 0,
+    "normalize_output": 1,
+    "cpu_only": 0,
+    "gpu_id": 0
+}

@@ -1,0 +1,15 @@
+{
+    "network_prototxt": "/workspace/data/face_models/face-recog-caffemodel-122/sphereface_64_deploy.prototxt",
+    "network_caffemodel": "/workspace/data/face_models/sphereface-64-ms-refined-62.5k-merged-10epk-0131/sphereface_64_ms_refined_62.5k_merged_10epk_ft_iter_110430.caffemodel",
+    "data_mean": "/workspace/data/face_models/face-recog-caffemodel-122/center_face_mean_127.5_1x3.binaryproto",
+    "feature_layer": "fc5",
+    "batch_size": 32,
+    "input_scale": 0.0078125,
+    "raw_scale": 255.0,
+    "channel_swap": "2, 1, 0",
+    "mirror_trick": 1,
+    "image_as_grey": 0,
+    "normalize_output": 1,
+    "cpu_only": 0,
+    "gpu_id": 0
+}
